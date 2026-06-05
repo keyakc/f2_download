@@ -1,0 +1,13 @@
+tiktok:
+  cookie:
+  max_connections: 5
+  max_counts: 0
+  max_retries: 5
+  max_tasks: 5
+  naming: '{create}_{desc}'
+  page_counts: 5
+  path: Download
+  timeout: 10
+  proxies:
+      http://: socks5://127.0.0.1:1086
+      https://: socks5://127.0.0.1:1086
